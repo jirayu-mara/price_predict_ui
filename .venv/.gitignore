@@ -1,3 +1,17 @@
 # created by virtualenv automatically
 .streamlit
-price_prediction_ui
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore log files and temporary files
+*.log
